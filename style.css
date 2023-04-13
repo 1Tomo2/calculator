@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 450px;
+  margin: 15vh auto;
+  border-radius: 10%;
+  box-shadow: inset 0px 0px 84px 12px rgba(0, 0, 0, 0.1);
+}
+.buttons {
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  line-height: 100px;
+  text-align: center;
+  font-size: 25px;
+  color: #000;
+  border-top: 1px dotted black;
+}
+
+#display {
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+  padding: 16px 20px;
+  font-size: 25px;
+}
