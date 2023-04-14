@@ -19,8 +19,16 @@ buttons.forEach((button) => {
           }
         }
         break;
+      case "√":
+        display.innerText = Math.sqrt(display.innerText);
+        break;
       default:
         display.innerText += e.target.innerText;
     }
+    // if (display.innerText === "true") {
+    //   display.innerText = `it's true`;
+    // } else if (display.innerText === "false") {
+    //   console.log("false");
+    // }
   });
 });
