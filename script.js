@@ -1,6 +1,8 @@
 let display = document.querySelector("#display");
 let buttons = document.querySelectorAll(".button");
 
+console.log("Hello World");
+
 buttons.forEach((button) => {
   button.addEventListener("click", (e) => {
     switch (e.target.innerText) {
